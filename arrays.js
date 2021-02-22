@@ -10,5 +10,5 @@ function addElementToEndOfArray(array, element) {
 }
 
 function addElementToBeginningOfArray(array, element) {
-  return array.unshift(element)
+  return [element, ...array]
 }
