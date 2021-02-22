@@ -6,10 +6,9 @@ var chocolateBars = [
 ]
 
 function addElementToEndOfArray(array, element) {
-    return chocolateBars.push(element)
-
+    return array.push(element)
 }
 
 function addElementToBeginningOfArray(array, element) {
-  return chocolateBars.unshift(element)
+  return array.unshift(element)
 }
